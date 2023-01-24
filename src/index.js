@@ -7,12 +7,12 @@ import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
   // 개발 환경에서만 동작
   // 문제를 출력하는데 사용됨
   // <React.StrictMode>
-    <App />
   // </React.StrictMode>
+  <BrowserRouter>
+    <App />
   </BrowserRouter>
 );
 
