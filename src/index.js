@@ -11,7 +11,7 @@ root.render(
   // 문제를 출력하는데 사용됨
   // <React.StrictMode>
   // </React.StrictMode>
-  <BrowserRouter>
+  <BrowserRouter basename='react-netflix-clone'>
     <App />
   </BrowserRouter>
 );
